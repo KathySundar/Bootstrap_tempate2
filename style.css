@@ -1,0 +1,616 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* **************************************************************** */
+/*                             Header                               */
+/* **************************************************************** */
+
+.header{
+    background-image: url('img/header-background-image.jpg');
+    color:white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top:10px;
+    padding-bottom:50px;
+}
+
+.header-content {
+    width:90%;
+    margin: auto;
+}
+
+.header .nav-item{
+    padding:10px;
+    color: white;
+}
+
+
+
+.contact-number{
+    border: 2px dotted white;
+    padding: 5px;
+}
+
+
+.header-row2-col2{
+    background-color: white;
+    color: gray;
+    border-bottom: 3px solid blue;
+}
+
+.header-row2 .form-group{
+    margin: 10px;
+}
+
+.header-row2-col1 span{
+    border: 1px solid white;
+}
+
+.header-row2-col1 > h3{
+    line-height: 200%;
+}
+
+.header-row3-main{
+    background-color: lightgrey;
+}
+.header-row3{
+    height:100px;
+    overflow: hidden;
+    width:90%;
+    margin:auto;
+}
+
+
+.themeforest img{
+    width:30px;
+    height:30px;
+    /* float:left; */
+}
+
+.graphicriver img{
+    width:30px;
+    height:30px;
+    /* float:left; */
+    
+}
+
+.codecanyon img{
+    width: 25px;
+    height: 25px;
+    /* float:left; */
+}
+
+.clearfix{
+    clear:both;
+    content:'';
+}
+
+/* ******************************************* */
+/*                 Practice Areas              */
+/* ******************************************* */
+.practice-area-main-container{
+    width:90%;
+    margin:auto;
+}
+
+.practice-area-header > p{
+    width:75%;
+    margin: auto; 
+    color:gray;
+}
+.practice-area-header > h1{
+    color:rgb(59, 59, 59)
+}
+.parctice-area-cards{
+    margin-bottom: 20px;
+    border: none;
+    
+}
+.parctice-area-cards >img{
+    width:100%;
+    height:150px;
+    object-fit: cover;
+    padding:3px;
+    border:2px dotted blue;
+
+}
+.parctice-area-cards p{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.parctice-area-cards h6{
+    font-weight: 900;
+    color: gray;
+}
+
+
+/* ******************************************* */
+/*                Amazing Features             */
+/* ******************************************* */
+
+.amazing-container{
+    width:90%;
+    margin:auto;
+}
+
+.amazing-header > p {
+    width:75%;
+    margin: auto;
+}
+.amazing-row2-image > img{
+    width: 100%;
+    height:100%;
+    border: 2px dotted blue;    
+}
+
+.amazing-col2 > p{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: gray;
+}
+.amazing-item > i{
+    font-size: 2.5rem;
+    color: blue;
+}
+
+.amazing-item-details > h6{
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.amazing-item-details > p{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+
+/* **************************************************** */
+/*                      About US                        */
+/* **************************************************** */
+.about-us{
+    width:90%;
+    margin: auto;
+    color:rgb(107, 106, 106);
+    
+}
+.about-us-row1 > p{
+    width:80%;
+    margin: auto;
+}
+.about-us-content > h5{
+    font-weight: 700;
+    color: grey;
+}
+
+.about-us-content > p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: grey;
+}
+
+.about-us-icon-container{
+    width:100%;
+    text-align: center;
+}
+
+.about-us-image{
+    width:100%;
+    height: 100%;
+    padding:5px;
+   object-fit: cover; 
+   border: 2px blue dotted;   
+}
+
+.about-us-content .fas{
+    font-size: 2rem;
+    color:white;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 15px;
+    border-width:10%;
+    border-top: 9px solid #7d2dce2c;
+    border-right: 9px solid #02ccff9d;
+    border-bottom: 9px solid #02ccff79;
+    border-left: 9px solid #02ccff77;
+    border-radius: 100px;
+    border-collapse: separate;
+   background: linear-gradient(to top, #7e2dce 0%, rgba(8, 206, 255, 0.835) 100%);
+}
+
+.about-us-icon{
+    display: inline-block;   
+}
+
+.about-us-icon > p{
+    font-size:0.7rem;
+    color: gray;
+    font-weight: 700;
+}
+
+/* ************************************************* */
+/*                        Video                      */
+/* ************************************************* */
+
+.video-container{
+    background-image: url('img/video-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+}
+
+.video-container-content{
+    width:90%;
+    margin: auto;
+}
+.video-container-content > p{
+    margin: auto;
+}
+
+.video-link > iframe{
+    width: 485px;
+    height:298px;
+}
+
+/* ************************************************* */
+/*                    Our Lawyers                    */
+/* ************************************************* */
+
+.our-lawers-header{
+    width: 90%;
+    margin: auto;
+}
+
+.our-lawyers-cards{
+    border: none;
+}
+.our-lawyers-cards >img {
+    height: 200px;
+    border: 2px dotted blue;
+    padding:3px;
+}
+
+.our-lawyers-cards  h5{
+    color:blue;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.our-lawyers-cards  h6{
+    color: gray;
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+}
+
+.our-lawyers-cards .fa-twitter-square{
+    background-color: white;
+    font-size: 1.3rem;
+    color:rgb(70, 175, 216);
+}
+
+.our-lawyers-cards .fa-facebook-square{
+    background-color: white;
+    color:darkblue;
+}
+
+.our-lawyers-cards .fa-linkedin{
+    background-color: white;
+    font-size: 1.3rem;
+    color:rgb(42, 125, 158);
+}
+
+.our-lawyers-cards .fab{
+    font-size: 1.3rem;
+}
+.our-lawers-header > p{
+    margin: auto;
+}
+
+/* ****************************************** */
+/*                     Count                  */
+/* ****************************************** */
+
+.count-main-container{
+    background: linear-gradient(to right, #cc00ff 0%, #0066ff 100%);
+}
+.count-item{
+    width:90%;
+    margin:auto;
+    color:white;
+}
+
+.count-items > .fas{
+    font-size: 2rem;
+    /* color:white; */
+}
+
+.count-items > h1{
+    font-weight: 800;
+    margin: 0;
+}
+
+.count-items > p{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+/* *************************************************** */
+/*                  Clients's Feedback                 */
+/* *************************************************** */
+
+.feedback-container{
+    width:90%;
+    margin: auto;
+}
+
+.client-feedback {
+    height:45vh;
+}
+
+.client-feedback img{
+    height:80px;
+    width:80px;
+    text-align: center;
+    margin: auto;
+}
+
+.client-feedback h5{
+    color: rgba(7, 7, 248, 0.849);
+}
+
+.client-feedback h6{
+    color: grey;
+    font-size: 0.7rem;
+}
+
+.client-feedback p{
+    color: gray;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+/* *************************************************** */
+/*                      Our Package                    */
+/* *************************************************** */
+
+.package-container-main{
+    background-color: rgb(223, 222, 222);
+}
+
+.package-container {
+    width:90%;
+    margin: auto;
+}
+.package-card1 > h5{
+    font-weight: 700;
+}
+
+.package-card1 > .fab, .fas{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.package-card1 > h1{
+    font-weight: 700;
+    color:blue;
+}
+.package-card1 > p{
+    font-size: 0.8rem;
+    color:gray
+}
+
+.package-card1 > li{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.package-card1 > .btn{
+    width:100%;
+}
+
+.package-card2{
+    background: linear-gradient(to right, #cc00ff 0%, #0066ff 100%);
+    color:white;
+}
+.package-card2 > li{
+    background: linear-gradient(to right, #cc00ff 0%, #0066ff 100%);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: rgb(184, 184, 184);
+}
+
+.package-card2 > p{
+    font-size: 0.8rem;
+}
+
+.package-card2 > h1{
+    font-weight: 700;
+}
+
+.package-card1 > h5{
+    font-weight: 700;
+}
+
+.package-card2 > .fas{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.package-card2 > .btn{
+    width:100%;
+    color: blue;
+    background-color: white;
+}
+
+/* *************************************************** */
+/*                     Get Free Quote                  */
+/* *************************************************** */
+.get-quote{
+    width:90%;
+    margin: auto;
+    text-align: center;
+}
+
+.get-quote > p{
+    margin: auto;
+}
+.quote-cards{
+    text-align: center;
+}
+.quote-items{
+    border:1px solid grey;
+    background-color: white;
+}
+
+.quote-items  .fas{
+    font-size: 1.5rem;
+    color: blue;
+    height:40px;
+    margin-right: 20px;
+}
+.quote-info{
+    text-align: left;
+    width:170px;
+    height:55px;
+}
+
+.quote-info > h6{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.quote-info > p{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color:grey;
+    padding:0;
+}
+
+/* *************************************************** */
+/*                     Get Free Quote                  */
+/* *************************************************** */
+
+.map-findUs{
+    background-color: black;
+}
+.map-findUs > iframe {
+    width: 100%;
+    height:35vh;
+}
+
+/* *************************************************** */
+/*                      Footer                         */
+/* *************************************************** */
+
+.footer{
+    width:100%;
+    height:20vh;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.footer > .fab {
+    margin-right:20px;
+}
+
+.copyright > *{
+    color:grey;
+    font-size: 0.7rem;
+}
+
+/* ******************************************************* */
+/*                  Media Queries                          */
+/* ******************************************************* */
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .contact-number{
+        border-width: 0;
+    }
+    .footer{
+        height:10vh;
+        font-size: 0.8rem;
+        padding-top:10px;
+    }
+
+    .copyright > *{
+        font-size: 0.5rem;
+    }
+
+    .practice-area-header > p{
+        width:100%;
+    }
+    .practice-area-main-container{
+        width:98%;
+        margin:auto;
+    }
+
+    .amazing-header > p{
+        width:100%;
+    }
+
+    .amazing-container{
+        width:98%;
+        margin: auto;
+    }
+
+    .amazing-row2-image > img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .about-us-row1 > p{
+        width:100%;
+    }
+
+    .about-us{
+        width:90%;
+        margin: auto;
+    }
+
+    .video-container-content > p{
+        width:100%;
+    }
+    .video-container{
+        width:98%;
+        margin: auto;
+    }
+
+    .our-lawers-header > p{
+        width:90%;
+        margin: auto;
+    }
+    .our-lawers-header{
+        width:98%;
+        margin: auto;
+    }
+    .client-feedback {
+        height:60vh;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 991px) {
+    .about-us-image{
+        width:300px;
+        height:300px;
+    }
+}
+
+@media only screen and (max-device-width: 499px) {
+    .video-link > iframe{
+        width:98%;
+        height:200px;
+        
+    }
+}
