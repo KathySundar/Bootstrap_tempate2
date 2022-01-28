@@ -27,7 +27,10 @@
     color: white;
 }
 
-
+.navbar-toggler{
+    background-color: rgba(245, 226, 226, 0.322);
+    border:rgba(235, 225, 222, 0.562);
+}
 
 .contact-number{
     border: 2px dotted white;
